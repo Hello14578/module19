@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-section {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Add this to your style.css file */
+
+/* Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Navigation links styles */
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+/* Navigation link hover styles */
+.contact-info a:hover {
+    color: #FFD700; /* Change to the desired hover color */
+    border-bottom: 2px solid #FFD700; /* Add underline on hover */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: MuseoModerno;
+  background-color: #000;
+  /* Black background */
+  color: #fff;
+  /* White text */
+}
+
+.center-content {
+  margin-top: -100px;
+  font-family: MuseoModerno;
+  font-style: bold;
+  font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  /* Adjust padding as needed */
+}
+
+
+.my-hero-text {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  /* Adjust padding as needed */
+}
+
+.my-hero-text {
+  margin-bottom: 20px;
+  /* Adjust margin between Jerin Achankunju and the following text */
+}
+
+.my-hero-text h1 {
+  margin: 0;
+}
+
+.my-vision {
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  place-content: center;
+  /* Adjust margin between Jerin Achankunju text and "I CRAFT MY VISION HERE" */
+}
+
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  /* Adjust margin as needed */
+}
+
+.images img {
+  margin: 80px;
+  /* Adjust margin between images */
+}
+
+
+.all-in {
+  /* display: flex; */
+  background-color: purple;
+}
+
+.purple-box {
+  background-color: purple;
+}
+
+.jam {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+  /* Adjust the margin to your preference */
+}
+
+.ham {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+
+
+/* .edu{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -335px;
+    margin-right:200px;
+} */
+
+
+/* .adu{
+   display: flex;
+  font-size: 20px;
+    justify-content:flex-end;
+    margin-top: 0px; 
+    margin-right:200px;
+  }
+
+.rdu{
+    display: flex;
+  font-size: 20px;
+    justify-content:flex-end;
+    margin-top: 0px; 
+    margin-right:150px;
+  } */
+
+.image-container {
+  width: 100%;
+  display: flex;
+  display: column;
+  justify-content: space-between
+}
+
+.form-box {
+  color: black;
+}
+
+.left-section {
+  text-align: center;
+  padding-top:90px;
+}
+
+.contact-box {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  /* White background color */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+  /* Black text color */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: purple;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.right {
+  float: right;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    float: left;
+    width: 100%;
+  }
+  [class="images"] {
+    display: block;
+    /* justify-content: center; */
+    margin-top: 10px;
+    /* Adjust margin as needed */
+  }
+}
